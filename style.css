@@ -1,0 +1,56 @@
+body {
+  background-image: url("images/background.png");
+  background-repeat: repeat;
+  animation: slide 10s linear infinite;
+  animation-duration: 10s;
+  transition-delay: 0s;
+}
+
+@keyframes slide {
+  0% {
+    background-position-x: 0px;
+    background-position-y: 0px;
+  }
+  100% {
+    background-position-x: -40px;
+    background-position-y: -40px;
+  }
+}
+
+.tow{
+  background-image: url("images/bottom.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  width:1020px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color:#0e071b;
+  border-radius: 10px;
+}
+
+.float{
+  margin-left: 14px;
+}
+
+.float:hover{
+  margin-left: 18px;
+  margin-bottom: 4px;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+h1:{
+  color: #0e071b;
+  font-family: monospace, monospace;
+}
+a:hover{
+  color: #93ffb9;
+}
+a{
+  color: #0e071b;
+  font-family: monospace, monospace;
+}
+
+p{
+  color: #0e071b;
+  font-family: monospace, monospace;
+}
